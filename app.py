@@ -75,7 +75,7 @@ class App(QtWidgets.QMainWindow):
         try:
             # Get the latitude and longitude of current IP and
             # then get the weather for said location.
-            # Note that a api_key from openweathermap.org needs
+            # Note that na api_key from openweathermap.org needs
             # to be provided.
             lat, lon = latlon('me')
             weather = current_weather(api_key='#', lat=lat, lon=lon)
